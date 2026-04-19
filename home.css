@@ -11,6 +11,7 @@ header{
   align-items: center;
   padding: 40px 80px;
   border-bottom: 1px solid rgb(226, 226, 226);
+  
 }
 /* .logo header{
 
@@ -126,6 +127,7 @@ gap:30px;
   justify-content: space-between;
   margin-top: 70px;
 }
+
 .recipes button{
   margin-right:50px;
   background-color: #000000;
@@ -199,7 +201,6 @@ font-size: 15px;
   height:150px;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
   box-shadow:inset 0 -10px 15px -5px rgba(0, 0, 0, 0.2);
   margin-bottom:30px;
  }
@@ -301,12 +302,54 @@ flex:1;
   flex:1
  }
  .banner2{
-  border: 1px solid red;
+  background: linear-gradient(to top, #E7F9FD, #E7F9FD00);
  }
  .post{
   display: flex;
-  gap:30px;
+  align-items: center;
+  justify-content: space-between;
+  /* gap:30px; */
   margin-left: 60px;
-  margin-right: 40px;
+  margin-right: 60px;
+  margin-bottom: 50px;
+ }
+ .instagram{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   
+ }
+  .instagram button{
+  margin-top:10px;
+  background-color: #000000;
+  color:#FFFFFF;
+  padding:10px 15px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  font-size: 0.6em;
+ }
+ .instagram i{
+  margin-left: 10px;
+  font-size: 1.5em;
+ }
+ .new-text{
+  display: flex;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 130px;
+  margin-bottom: 30px;
+ }
+ .new-text h2{
+  flex:1;
+  text-align:start;
+  margin-top: 0;
+ font-size: 2.5em;
+
+ }
+ .new-text p{
+  flex:1;
+  margin-top: 25px;
+  font-size: 0.8em;
+  padding-right:30px;
+  color: #00000099;
  }
